@@ -1,3 +1,13 @@
+# SAP / PAÉ Website
+
+### Official website for the uOttawa Student Assistance Program 
+
+<!---
+add more content
+-->
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
