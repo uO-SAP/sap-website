@@ -63,6 +63,8 @@ export const Navbar = () => {
       <div style={{ textAlign: 'end', padding: '10px', paddingRight: '20px' }}>
         <a
           href="https://discord.gg/PnQ399XKak"
+          target="_blank"
+          rel="noopener noreferrer"
           style={{
             textDecoration: 'none',
             color: '#FFFFFF',
