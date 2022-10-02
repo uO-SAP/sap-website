@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/sap-website/static/css/main.073c9b0a.css",
-    "main.js": "/sap-website/static/js/main.9bec7777.js",
+    "main.js": "/sap-website/static/js/main.f39b99f2.js",
     "static/js/787.d588ca71.chunk.js": "/sap-website/static/js/787.d588ca71.chunk.js",
     "static/media/sap-logo.svg": "/sap-website/static/media/sap-logo.5ab44fd71e9951374d26781b6ecdc079.svg",
     "index.html": "/sap-website/index.html",
     "main.073c9b0a.css.map": "/sap-website/static/css/main.073c9b0a.css.map",
-    "main.9bec7777.js.map": "/sap-website/static/js/main.9bec7777.js.map",
+    "main.f39b99f2.js.map": "/sap-website/static/js/main.f39b99f2.js.map",
     "787.d588ca71.chunk.js.map": "/sap-website/static/js/787.d588ca71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.9bec7777.js"
+    "static/js/main.f39b99f2.js"
   ]
 }
