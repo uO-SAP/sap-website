@@ -4,7 +4,9 @@ import { Title } from './Title';
 export const Homepage = () => {
   return (
     <>
-      <Navbar />
+      <div style={{ marginBottom: '20px' }}>
+        <Navbar />
+      </div>
       <Title />
     </>
   );
