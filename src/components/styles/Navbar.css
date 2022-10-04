@@ -1,0 +1,15 @@
+/* .test {
+  height: 'auto';
+  font-weight: '500';
+  cursor: 'pointer';
+  background: 'black' !important;
+  color: 'white' !important;
+  margin: '100px' !important;
+} */
+
+.navbar-button {
+  height: 1.6em;
+  font-weight: 500;
+  color: black;
+  cursor: pointer;
+}

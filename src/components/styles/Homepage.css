@@ -1,0 +1,8 @@
+.section-a {
+  height: 100vh;
+  background-color: '#CCC';
+}
+
+.section-a-dark {
+  background-color: '#000';
+}
