@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  opacity: 100;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s; /* Safari */
+}

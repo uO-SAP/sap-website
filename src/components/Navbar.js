@@ -4,6 +4,7 @@ import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 import { Tooltip, FormGroup, FormControlLabel, Switch } from '@mui/material';
 import { styled } from '@mui/material/styles';
+import { Link } from 'react-router-dom';
 
 export const Navbar = (props) => {
   // Light/night mode switch
@@ -74,31 +75,45 @@ export const Navbar = (props) => {
             display: 'flex',
             flexDirection: 'row',
             gap: '20px',
-            color: props.isDark ? '#f3f3f3' : '#545454',
           }}
         >
-          <div className="navbar-button">Home</div>
+          <Link
+            className="navbar-button"
+            to="/home"
+            style={{ color: props.isDark ? '#f3f3f3' : '#545454' }}
+          >
+            Home
+          </Link>
           <div style={{ display: 'flex', flexDirection: 'row', gap: '20px' }}>
-            <div className="navbar-button">
+            <div>
               <Tooltip title="Coming soon!" arrow>
-                <div>Events</div>
+                <Link
+                  className="navbar-button"
+                  to="/events"
+                  style={{ color: props.isDark ? '#f3f3f3' : '#545454' }}
+                >
+                  Events
+                </Link>
               </Tooltip>
             </div>
             <div className="navbar-button">
               <Tooltip title="Coming soon!" arrow>
-                <div>Posts</div>
+                <Link
+                  className="navbar-button"
+                  to="/team"
+                  style={{ color: props.isDark ? '#f3f3f3' : '#545454' }}
+                >
+                  The team
+                </Link>
               </Tooltip>
             </div>
-            <div className="navbar-button">
-              <Tooltip title="Coming soon!" arrow>
-                <div>The Team</div>
-              </Tooltip>
-            </div>
-            <div className="navbar-button">
-              <Tooltip title="Coming soon!" arrow>
-                <div>FAQ</div>
-              </Tooltip>
-            </div>
+            <Link
+              className="navbar-button"
+              to="/about"
+              style={{ color: props.isDark ? '#f3f3f3' : '#545454' }}
+            >
+              About us
+            </Link>
           </div>
         </div>
 
@@ -138,6 +153,8 @@ export const Navbar = (props) => {
                 fontSize: '16px',
                 fontWeight: '700',
                 cursor: 'pointer',
+                color: props.isDark ? '#f3f3f3' : '#545454',
+                borderColor: props.isDark ? '#f3f3f3' : '#545454',
               }}
             >
               FR
