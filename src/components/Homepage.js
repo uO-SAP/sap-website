@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 export const Homepage = () => {
   // eslint-disable-next-line
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
 
   const switchMode = () => {
     setIsDark(!isDark);
