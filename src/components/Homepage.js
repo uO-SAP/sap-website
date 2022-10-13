@@ -1,5 +1,5 @@
 import './styles/Homepage.css';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Navbar } from './Navbar';
 import { Title } from './Title';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -11,11 +11,6 @@ export const Homepage = () => {
   const switchMode = () => {
     setIsDark(!isDark);
   };
-
-  useEffect(() => {
-    // Update the document title using the browser API
-    document.title = `You clicked times`;
-  });
 
   return (
     <>
