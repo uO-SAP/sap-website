@@ -1,23 +1,35 @@
 import './styles/Homepage.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Navbar } from './Navbar';
 import { Title } from './Title';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 export const Homepage = () => {
   // eslint-disable-next-line
   const [isDark, setIsDark] = useState(true);
 
   const switchMode = () => {
-    // setIsDark(!isDark);
-    // console.log(isDark);
+    setIsDark(!isDark);
   };
+
+  useEffect(() => {
+    // Update the document title using the browser API
+    document.title = `You clicked times`;
+  });
 
   return (
     <>
-      <div className={isDark ? 'section-a-dark' : 'section-a'}>
-        <Navbar switchColorFn={switchMode} />
-        <Title />
-      </div>
+      <Router>
+        <div
+          className={isDark ? 'section-a-dark' : 'section-a'}
+          style={{ height: '100vh' }}
+        >
+          <Navbar switchColorFn={switchMode} isDark={isDark} />
+          <Routes>
+            <Route path="/" element={<Title isDark={isDark} />} />
+          </Routes>
+        </div>
+      </Router>
     </>
   );
 };

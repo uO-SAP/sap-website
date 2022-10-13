@@ -74,6 +74,7 @@ export const Navbar = (props) => {
             display: 'flex',
             flexDirection: 'row',
             gap: '20px',
+            color: props.isDark ? '#f3f3f3' : '#545454',
           }}
         >
           <div className="navbar-button">Home</div>
@@ -111,9 +112,11 @@ export const Navbar = (props) => {
           <div style={{ marginRight: '0px' }}>
             <FormGroup>
               <FormControlLabel
+                value={true}
                 control={
                   <MaterialUISwitch
                     sx={{ m: 1 }}
+                    defaultChecked={props.isDark}
                     onChange={() => props.switchColorFn()}
                   />
                 }
@@ -134,6 +137,7 @@ export const Navbar = (props) => {
                 flexDirection: 'column',
                 fontSize: '16px',
                 fontWeight: '700',
+                cursor: 'pointer',
               }}
             >
               FR
