@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8ba91a6.css",
-    "main.js": "/static/js/main.f8d43d66.js",
+    "main.css": "/static/css/main.adaf43cd.css",
+    "main.js": "/static/js/main.e517ef8d.js",
     "static/js/787.a3258f7a.chunk.js": "/static/js/787.a3258f7a.chunk.js",
+    "static/media/sap-poster.png": "/static/media/sap-poster.2e5be8db88082331fe75.png",
     "static/media/sap-logo-dark.svg": "/static/media/sap-logo-dark.bc4c1b1356733453ad1f7d2a2c035f83.svg",
     "static/media/sap-logo.svg": "/static/media/sap-logo.5ab44fd71e9951374d26781b6ecdc079.svg",
     "index.html": "/index.html",
-    "main.f8ba91a6.css.map": "/static/css/main.f8ba91a6.css.map",
-    "main.f8d43d66.js.map": "/static/js/main.f8d43d66.js.map",
+    "main.adaf43cd.css.map": "/static/css/main.adaf43cd.css.map",
+    "main.e517ef8d.js.map": "/static/js/main.e517ef8d.js.map",
     "787.a3258f7a.chunk.js.map": "/static/js/787.a3258f7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8ba91a6.css",
-    "static/js/main.f8d43d66.js"
+    "static/css/main.adaf43cd.css",
+    "static/js/main.e517ef8d.js"
   ]
 }
